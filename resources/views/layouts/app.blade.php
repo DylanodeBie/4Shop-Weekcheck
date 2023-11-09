@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>4Shop - M DE JONG</title>
+    <title>4Shop - D DE BIE</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,8 +21,11 @@
     <div class="container">
       <header class="header d-flex justify-content-between align-items-center">
         <img src="{{ asset('img/4shop-logo.png') }}" alt="tag" width="80">
-        <h3 class="text-muted site-title"><a href="{{ route('home') }}" class="no-link">4Shop - M DE JONG</a></h3>
+        <h3 class="text-muted site-title"><a href="{{ route('home') }}" class="no-link">4Shop - D DE BIE</a></h3>
         <a href="{{ route('cart') }}"><img class="cart" src="{{ url('img/cart.png') }}" alt=""></a>
+
+        
+
       </header>
 
       <main role="main">
@@ -46,7 +49,7 @@
 
       <footer class="footer">
         <p>
-          &copy; 4Shop - M DE JONG
+          &copy; 4Shop - D DE BIE
         </p>
       </footer>
 

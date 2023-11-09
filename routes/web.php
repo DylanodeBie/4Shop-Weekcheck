@@ -63,3 +63,4 @@ Route::view('/login', 'auth.login')->name('login');
 Route::post('/login', [LoginController::class, 'authenticate'])->name('authenticate');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/category/{category}', [ProductController::class, 'app'])->name('categories.show');
